@@ -44,6 +44,8 @@ cloudinary = "0.8.1"
 tempfile = "3.8.1"
 axum-swagger-ui = "0.3.0"
 
+openssl = { version = "0.10", features = ["vendored"] }
+
 [dev-dependencies]
 tokio-test = "0.4.3"
 tower = { version = "0.5.2", features = ["util"] }
